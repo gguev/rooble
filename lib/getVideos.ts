@@ -2,9 +2,12 @@ import Innertube from 'youtubei.js'
 
 // ADD ERROR HANDLING
 export default async function getVideos(query: string) {
-  const youtube = await new Innertube({ gl: 'US' })
-
+  const youtube = await Innertube.create({ gl: 'US' })
   const search = await youtube.search(query, { client: 'YOUTUBE' })
-  
-  return JSON.parse(JSON.stringify(search))
+  const videos = search.results || []
+
+  return {
+    query,
+    videos: JSON.parse(JSON.stringify(videos)),
+  }
 }
