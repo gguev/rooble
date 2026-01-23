@@ -1,6 +1,6 @@
 # Rooble
 
-Rooble is a Next.js port and refactor [Layluh](https://github.com/gguev/layluh), a minimalist frontend alternative for YouTube and Twitch.
+Rooble is a Next.js port and refactor of [Layluh](https://github.com/gguev/layluh), a minimalist frontend alternative for YouTube and Twitch.
 
 ## Tech Stack
 
@@ -15,7 +15,7 @@ Rooble is a Next.js port and refactor [Layluh](https://github.com/gguev/layluh),
 1. Clone the repository
 
    ```sh
-   git clone https://github.com/gguev/cagedle.git
+   git clone https://github.com/gguev/rooble.git
    ```
 
 2. Navigate to the project directory
