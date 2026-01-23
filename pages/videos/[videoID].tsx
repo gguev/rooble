@@ -12,7 +12,7 @@ const VideoPage = (props: { videoID: any; }) => {
   return (
     <div>
       <Head>
-        <title>Twitch VOD: { videoID } - Rooble</title>
+        <title>{`Twitch VOD: ${videoID} - Rooble`}</title>
 
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />

@@ -15,7 +15,7 @@ const WatchPage = (props: { videoID: string; title: string }) => {
   return (
     <div>
       <Head>
-        <title>{title} - Rooble</title>
+        <title>{`${title} - Rooble`}</title>
 
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link

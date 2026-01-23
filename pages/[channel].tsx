@@ -12,7 +12,7 @@ const ChannelPage = (props: { channel: any; }) => {
   return (
     <div>
       <Head>
-        <title>{channel} - Rooble</title>
+        <title>{`${channel} - Rooble`}</title>
 
         <link rel="shortcut icon" href="/images/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
