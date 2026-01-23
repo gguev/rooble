@@ -33,7 +33,6 @@ Rooble is a Next.js port and refactor of [Layluh](https://github.com/gguev/laylu
 4. Start the development server
    ```sh
    npm run dev
-   ``
    ```
 
 \* NOTE: Twitch has changed how its embeds work and as of now, the livestreams feature does not work. However, the past broadcasts feature still functions correctly.
