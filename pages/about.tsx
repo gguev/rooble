@@ -6,7 +6,7 @@ const AboutPage = () => {
   return (
     <div className="flex flex-col">
     <Head>
-      <title>About - Goomba</title>
+      <title>About - Rooble</title>
       
       <link rel="shortcut icon" href="/images/favicon.ico" />
       <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
@@ -16,9 +16,9 @@ const AboutPage = () => {
     
     <Header />
     <main className="flex flex-col px-52 pt-10">
-      <h1 className='text-4xl text-white'>About Goomba</h1> 
+      <h1 className='text-4xl text-white'>About Rooble</h1> 
       <div className='pt-5 pb-44'>
-        <p className='text-white text-xl pb-3'>Goomba allows you to watch videos without distractions. That means...</p>
+        <p className='text-white text-xl pb-3'>Rooble allows you to watch videos without distractions. That means...</p>
         <ul className='list-disc pl-10 pb-3'>
           <li className='text-white text-xl pb-3'>Minimal UI</li>
           <li className='text-white text-xl pb-3'>No cluttered sidebars.</li>
