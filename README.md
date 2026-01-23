@@ -1,23 +1,39 @@
-# Goomba
-Goomba is the ported and updated version of [Layluh](https://github.com/gguev/layluh). Like Layluh, Goomba is a minimalist frontend alternative to YouTube and Twitch. It is built with Next.js and TypeScript.
+# Rooble
 
-## Features
+Rooble is a Next.js port and refactor [Layluh](https://github.com/gguev/layluh), a minimalist frontend alternative for YouTube and Twitch.
 
--   [Next.js](https://nextjs.org/)
--   [TypeScript](https://www.typescriptlang.org/)
--   [Tailwind CSS](https://tailwindcss.com/)
--   [DaisyUI](https://daisyui.com/)
+## Tech Stack
 
-## Development
+- [TypeScript](https://www.typescriptlang.org/)
+- [React](https://react.dev/)
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [DaisyUI](https://daisyui.com/)
 
-```bash
-# install dependencies
-npm i
+## Installation
 
-# run development server
-npm run dev
-```
+1. Clone the repository
 
-*NOTE: There seems to be a breaking change with React 18, so this project is set to use React 17.0.2 and Next 12.2.2.
+   ```sh
+   git clone https://github.com/gguev/cagedle.git
+   ```
 
+2. Navigate to the project directory
 
+   ```sh
+   cd rooble
+   ```
+
+3. Install dependencies
+
+   ```sh
+   npm install
+   ```
+
+4. Start the development server
+   ```sh
+   npm run dev
+   ``
+   ```
+
+\* NOTE: Twitch has changed how its embeds work and as of now, the livestreams feature does not work. However, the past broadcasts feature still functions correctly.
